@@ -7,18 +7,18 @@ void main() {
     update,
     view,
   );
-  runApp(MyApp(program));
+  runApp(CounterApp(program));
 }
 
-class MyApp extends StatelessWidget {
+class CounterApp extends StatelessWidget {
   final Program darteaProgram;
 
-  MyApp(this.darteaProgram);
+  CounterApp(this.darteaProgram);
 
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: 'Flutter + Dartea. Part 1: Introduction️',
+      title: 'Flutter + Dartea = ❤️',
       theme: new ThemeData(
         primarySwatch: Colors.blue,
       ),
